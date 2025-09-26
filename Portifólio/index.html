@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header id="inicio">
+        <nav>
+            <h1>Nathan Duarte</h1>
+            <ul>
+                <li><a href="#sobre-mim">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#tecnologias">Técnicas</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><button id="theme-toggle" aria-label="Alternar tema">
+                    <i class="fas fa-moon"></i>
+                </button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-mim" class="secao">
+        <div class="container">
+            <div class="apresentacao">
+                <img src="img/nathan-profissa.png" alt="Sua Foto" class="foto-perfil">
+                <div class="info">
+                    <h2>Nathan Duarte da Silva</h2>
+                    <p>
+                        Profissional de tecnologia com forte atuação em suporte técnico, integração de sistemas e análise
+                        de dados, e setor financeiro. Tenho experiência em projetos nacionais e internacionais, utilizando
+                        ferramentas como Oracle SQL, Python, Power BI e SAP Analytics Cloud, com foco em
+                        transformar dados em decisões estratégicas.
+
+                        Ao longo da minha trajetória, trabalhei com ERPs como Bling e Tiny, além de marketplaces
+                        como Magalu, Shopee e Netshoes, apoiando empresas na digitalização de processos e geração de
+                        insights. Me destaco por minha comunicação com áreas técnicas e clientes finais, além de minha
+                        capacidade analítica.
+
+                    </p>
+                    <div class="links-sociais">
+                        <a href="https://www.linkedin.com/in/nathan-duarte-da-silva-7b2849169/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/nathan-duarte" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="nathandsilva1999@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="secao">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="cards-container">
+                <div class="card-projeto">
+                    <h3>Monitor de indisponibilidade</h3>
+                    
+                    <p>
+                        Script Python simples para testar resiliência de aplicações simulando indisponibilidade de rede/serviço 
+                        ao fazer requisições HTTP. Útil para validar lógica de retry, timeouts e tratamento de exceções em 
+                        integrações com serviços externos.
+                    </p>
+                    <div class="tecnologias">
+                        <span>Python</span>
+                    </div>
+                    <div class="links-projeto">
+                        <a href="https://github.com/nathan-duarte/Dashboard---Monitor-de-indisponibilidade" target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="card-projeto">
+                    <h3>Análise de vendas / Análise de perfis</h3>
+                    
+                    <p>
+                        Estes são dois projetos de Análise de dados. O primeiro é uma análise de performance de vendas 
+                        detalhada por ano, mês e semana. O segundo é focado na análise e caracterização do perfil do consumidor 
+                        que visita uma loja de veículos, gerando insights estratégicos.
+                    </p>
+                    <div class="tecnologias">
+                        <span>SQL</span>
+                        <span>Excel</span>
+                    </div>
+                    <div class="links-projeto">
+                        <a href="https://github.com/nathan-duarte/PostgreSQL" target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="card-projeto">
+                    <h3>Análise de gastos</h3>
+                    
+                    <p>
+                        Este dashboard é sua ferramenta essencial para alcançar a saúde financeira. Ao centralizar e visualizar
+                        todas as despesas, ele permite que você transforme dados em decisões. 
+                    </p>
+                    <div class="tecnologias">
+                        <span>Power BI</span>
+                    </div>
+                    <div class="links-projeto">
+                        <a href="https://github.com/nathan-duarte/Power-BI" target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="secao">
+        <div class="container">
+            <h2>Habilidades Técnicas</h2>
+            <div class="lista-tecnologias">
+                <div class="tech-item">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>MySQL/PostgreSQL/PLSQL</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-chart-bar"></i> <!-- Ícone para Power BI -->
+                    <span>Power BI</span>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contato" class="secao">
+        <div class="container">
+            <h2>Contato</h2>
+            <h3>Se preferir, me envie um e-mail diretamente!</h3>
+            <a href="mailto:nathandsilva1999@gmail.com" class="botao-contato">Me Mande um E-mail</a>
+            
+            <div class="links-sociais-contato">
+                <a href="https://www.linkedin.com/in/nathan-duarte-da-silva-7b2849169/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/nathan-duarte" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
